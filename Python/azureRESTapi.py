@@ -30,7 +30,7 @@ os.environ['AZURE_TENANT_ID'] = "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
 os.environ['AZURE_CLIENT_ID'] = "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
 os.environ['AZURE_CLIENT_SECRET'] = "abcd1234wxyz"
 
-# Call Environment Variables 
+# Set Request Variables 
 tenant = os.environ['AZURE_TENANT_ID']
 authority_url = 'https://login.microsoftonline.com/' + tenant
 client_id = os.environ['AZURE_CLIENT_ID']
